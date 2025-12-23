@@ -25,7 +25,7 @@ export default function PropertyDetail({ property }: PropertyDetailProps) {
           />
         </div>
         <div>
-          <h1 className="font-crimson text-4xl md:text-5xl font-bold text-pevona-dark mb-4">
+          <h1 className="font-crimson font-bold text-pevona-dark mb-4">
             {attributes.title}
           </h1>
           <p className="font-crimson text-3xl font-semibold text-pevona-green mb-6">

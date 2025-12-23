@@ -29,7 +29,7 @@ export default async function FindingPropertyPage() {
 
           {/* Hero Content */}
           <div className="relative max-w-[600px] space-y-9 text-white">
-            <h1 className="font-crimson text-[66px] leading-[72px] tracking-[-1.98px]">
+            <h1 className="font-crimson leading-[72px] tracking-[-1.98px]">
               Find the Right Property With Confidence
             </h1>
             <p className="font-manrope text-[18px] leading-[28px] text-white/90">
@@ -79,7 +79,7 @@ export default async function FindingPropertyPage() {
       </section>
 
       {/* What We Help You Buy */}
-      <section className="max-w-[1560px] mx-auto px-6 lg:px-0 mt-[150px] flex flex-col items-center gap-9">
+      <section className="max-w-[1600px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] mt-[150px] flex flex-col items-center gap-9">
         <h2 className="font-crimson text-[56px] leading-[56px] tracking-[-1.68px] text-[#002f57] text-center">
           What We Help You Buy
         </h2>

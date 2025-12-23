@@ -33,7 +33,7 @@ export default function Hero({
       <div className="relative z-10 flex flex-col items-center justify-end h-full px-[20px] py-[37px] gap-[113px]">
         <div className="flex flex-col items-center gap-[36px]">
           <div className="flex flex-col items-center gap-[16px]">
-            <h1 className="font-crimson text-[66px] leading-[66px] text-white text-center tracking-[-1.98px] max-w-[653px]">
+            <h1 className="font-crimson leading-[66px] text-white text-center tracking-[-1.98px] max-w-[653px]">
               {title}
             </h1>
             <p className="font-manrope font-normal text-[18px] leading-[28px] text-white text-center max-w-full">

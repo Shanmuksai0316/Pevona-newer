@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WhyChooseSection() {
   return (
-    <div className="w-full mt-[120px] px-4 sm:px-6 md:px-10 lg:px-[131.5px]">
+    <div className="w-full mt-[120px] px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] max-w-[1600px] mx-auto">
       <h2
         className="
           font-crimson text-[#002f57] tracking-[-1.68px]
@@ -113,7 +113,7 @@ function Card({
       className={`
         bg-white border border-[rgba(0,0,0,0.12)]
         rounded-[16px]
-        p-[32px]
+        p-[20px] 1300:p-[32px]
         mb-[16px]
         break-inside-avoid
         flex flex-col justify-between
@@ -147,7 +147,7 @@ function ImageCard({
         flex flex-col
       "
     >
-      <h4 className="px-[25px] pt-[20px] font-crimson font-semibold text-[26px] leading-[30px] text-[#002f57]">
+      <h4 className="px-[25px] pt-[20px] font-crimson font-semibold leading-[30px] text-[#002f57]">
         {title}
       </h4>
 
@@ -182,7 +182,7 @@ function Icon({ iconPath }: { iconPath: string }) {
 
 function Title({ children }: { children: React.ReactNode }) {
   return (
-    <h4 className="font-crimson font-semibold text-[26px] leading-[30px] text-[#002f57] mb-[8px]">
+    <h4 className="font-crimson font-semibold leading-[30px] text-[#002f57] mb-[8px]">
       {children}
     </h4>
   );

@@ -7,7 +7,7 @@ export default async function PropertiesPage() {
 
   return (
     <div className="container mx-auto px-4 py-16">
-      <h1 className="font-crimson text-5xl font-bold text-pevona-dark mb-8">
+      <h1 className="font-crimson font-bold text-pevona-dark mb-8">
         All Properties
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

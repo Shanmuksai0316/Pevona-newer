@@ -5,7 +5,7 @@ export default function OurManagementServicesPage() {
     <div className="bg-[#FAFAFA] min-h-screen">
       {/* Hero */}
       <section className="relative w-full overflow-hidden">
-        <div className="relative max-w-[1560px] mx-auto px-6 lg:px-[180px] pt-[39px] pb-[260px]">
+        <div className="relative max-w-[1600px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] pt-[39px] pb-[260px]">
           {/* Background image with mask-like rounded bottom */}
           <div className="absolute inset-0 -z-10">
             <div className="relative w-full h-[420px] md:h-[520px] lg:h-[620px] rounded-b-[36px] overflow-hidden">
@@ -22,7 +22,7 @@ export default function OurManagementServicesPage() {
 
           {/* Hero copy */}
           <div className="relative max-w-[780px] mt-10 space-y-6 text-white">
-            <h1 className="font-crimson text-[40px] md:text-[56px] lg:text-[66px] leading-[1.05] tracking-[-0.06em]">
+            <h1 className="font-crimson leading-[1.05] tracking-[-0.06em]">
               Professional Property Management, Made Simple
             </h1>
             <p className="font-manrope text-[18px] leading-[28px] text-white/90">
@@ -40,7 +40,7 @@ export default function OurManagementServicesPage() {
       </section>
 
       {/* Managing Every Detail */}
-      <section className="max-w-[1336px] mx-auto px-6 lg:px-0 mt-[150px] flex flex-col lg:flex-row gap-[100px] items-center">
+      <section className="max-w-[1300px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] mt-[150px] flex flex-col lg:flex-row gap-[100px] items-center">
         <div className="flex-1 relative w-full max-w-[720px] h-[460px] rounded-[26px] overflow-hidden">
           <Image
             src="http://localhost:3845/assets/8c635a6811cac99f508d3af65acc70648e8d9e5c.png"
@@ -390,5 +390,7 @@ export default function OurManagementServicesPage() {
     </div>
   );
 }
+
+
 
 

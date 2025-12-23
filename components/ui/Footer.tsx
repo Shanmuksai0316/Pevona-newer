@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#002f57] flex flex-col gap-[36px] items-center justify-end px-6 lg:px-0 pt-[73px] pb-12 lg:pb-[16px] w-full mt-[100px] lg:mt-[150px]">
-      <div className="flex flex-col lg:flex-row items-start justify-between lg:px-[135px] w-full max-w-[1560px] gap-12 lg:gap-0">
+    <footer className="bg-[#002f57] flex flex-col gap-4 items-center justify-end px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] pt-[73px] pb-12 lg:pb-[16px] w-full mt-[100px] lg:mt-[150px]">
+      <div className="flex flex-col lg:flex-row items-start justify-between w-full max-w-[1600px] gap-4">
         {/* Logo and Description */}
         <div className="flex flex-col gap-[26px] items-start w-full lg:w-[480px]">
           <div className="h-[50px] w-[193px] relative">
@@ -26,7 +26,7 @@ export default function Footer() {
         </div>
 
         {/* Links Sections */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:flex lg:flex-row gap-12 lg:gap-[60px] w-full lg:w-auto">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:flex lg:flex-row gap-4 w-full lg:w-auto">
           {/* Company */}
           <div className="flex flex-col gap-[10px] items-start min-w-[140px]">
             <p className="font-crimson font-semibold text-[26px] leading-[30px] text-white">Company</p>
@@ -63,8 +63,8 @@ export default function Footer() {
       </div>
 
       {/* Copyright */}
-      <div className="flex flex-col gap-[16px] items-center w-full px-6">
-        <div className="h-px w-full max-w-[1560px] border-t border-white opacity-20"></div>
+      <div className="flex flex-col gap-4 items-center w-full px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px]">
+        <div className="h-px w-full max-w-[1600px] border-t border-white opacity-20"></div>
         <p className="font-manrope font-medium text-[16px] leading-[26px] text-white opacity-60 text-center">
           Copyright © All rights reserved Pevona
         </p>

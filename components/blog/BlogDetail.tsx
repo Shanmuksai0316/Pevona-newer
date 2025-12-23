@@ -32,7 +32,7 @@ export default function BlogDetail({ blog }: BlogDetailProps) {
             {attributes.category}
           </span>
         )}
-        <h1 className="font-crimson text-4xl md:text-5xl font-bold text-pevona-dark mb-4">
+        <h1 className="font-crimson font-bold text-pevona-dark mb-4">
           {attributes.title}
         </h1>
         <div className="flex items-center gap-4 text-gray-600">

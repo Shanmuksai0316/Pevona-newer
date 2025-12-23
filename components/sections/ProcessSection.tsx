@@ -27,9 +27,9 @@ export default function ProcessSection() {
       <div className="flex flex-col gap-[10px] items-center text-center w-full">
         <h2 className="
           font-crimson text-[#002f57] tracking-[-1.68px]
-          text-[32px] leading-[38px]
-          sm:text-[40px] sm:leading-[46px]
-          lg:text-[56px] lg:leading-[56px]
+          leading-[38px]
+          sm:leading-[46px]
+          lg:leading-[56px]
           w-full
         ">
           Property Management Process
@@ -45,15 +45,13 @@ export default function ProcessSection() {
       <div className="
         flex flex-col lg:flex-row
         items-center justify-center w-full
-        gap-[40px] lg:gap-0
+        gap-[5%]
+        px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px]
       ">
 
         {/* IMAGE */}
         <div className="
           flex-1
-          px-0
-          sm:px-[40px]
-          lg:pl-[130px] lg:pr-[100px]
         ">
           <div className="relative w-full rounded-[26px] overflow-hidden">
             <Image
@@ -70,9 +68,6 @@ export default function ProcessSection() {
         {/* STEPS */}
         <div className="
           flex-1 flex flex-col gap-[26px] items-start
-          px-0
-          sm:px-[40px]
-          lg:pl-0 lg:pr-[140px]
           w-full
         ">
           {steps.map((step, i) => (

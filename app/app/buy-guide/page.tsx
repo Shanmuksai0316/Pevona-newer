@@ -6,7 +6,7 @@ export default function BuyGuidePage() {
     <div className="bg-[#FAFAFA] min-h-screen">
       {/* Hero */}
       <section className="relative w-full overflow-hidden">
-        <div className="relative max-w-[1560px] mx-auto px-6 lg:px-[180px] pt-10 pb-[80px]">
+        <div className="relative max-w-[1600px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] pt-10 pb-[80px]">
           <div className="absolute inset-0 -z-10">
             <div className="relative w-full h-[420px] md:h-[520px] lg:h-[620px] rounded-b-[40px] overflow-hidden">
               <Image
@@ -21,7 +21,7 @@ export default function BuyGuidePage() {
           </div>
 
           <div className="relative max-w-[700px] mt-10 space-y-6 text-white">
-            <h1 className="font-crimson text-[40px] md:text-[56px] lg:text-[66px] leading-[1.05] tracking-[-0.06em]">
+            <h1 className="font-crimson leading-[1.05] tracking-[-0.06em]">
               Buy with Clarity – Guidance, Areas &amp; Property Search in One Place
             </h1>
             <p className="font-manrope text-[18px] leading-[28px]">
@@ -39,7 +39,7 @@ export default function BuyGuidePage() {
       </section>
 
       {/* Quick Buying Guide – steps */}
-      <section className="max-w-[1320px] mx-auto px-6 lg:px-0 mt-[120px] flex flex-col lg:flex-row gap-[60px]">
+      <section className="max-w-[1300px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] mt-[120px] flex flex-col lg:flex-row gap-[60px]">
         {/* Left: intro + image */}
         <div className="lg:w-[40%] flex flex-col gap-8">
           <div className="space-y-4">

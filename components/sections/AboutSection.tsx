@@ -9,7 +9,7 @@ export default function AboutSection() {
         gap-[31px]
         h-[620px] sm:h-[700px] lg:h-[800px]
         pb-[24px] sm:pb-[30px] lg:pb-[36px]
-        px-4 sm:px-[40px] lg:px-[98px]
+        px-[60px] 1300:px-[98px]
         mt-[100px] sm:mt-[120px] lg:mt-[150px]
       "
     >
@@ -28,18 +28,17 @@ export default function AboutSection() {
           relative z-10 flex flex-col gap-[16px] items-start justify-end text-white w-full
           h-auto lg:h-[372px]
           pr-0
-          sm:pr-[200px]
-          md:pr-[400px]
-          lg:pr-[800px]
+          sm:pr-[540px]
+          1300:pr-[800px]
         "
       >
         <div className="flex flex-col gap-[8px] items-start">
           <h2
             className="
               font-crimson tracking-[-1.68px]
-              text-[32px] leading-[38px]
-              sm:text-[44px] sm:leading-[48px]
-              lg:text-[56px] lg:leading-[56px]
+              leading-[38px]
+              sm:leading-[48px]
+              lg:leading-[56px]
             "
           >
             About Pevona

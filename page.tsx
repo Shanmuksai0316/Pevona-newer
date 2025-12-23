@@ -1,8 +1,10 @@
+'use client';
 
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import FeaturedProperties from './components/sections/FeaturedProperties';
+import SellingProcessSection from './components/sections/SellingProcessSection';
 
 
 export default function Home() {
@@ -13,7 +15,7 @@ export default function Home() {
 
       {/* Header Section */}
       <div className="fixed top-0 left-0 right-0 z-[9999] flex justify-center px-4">
-        <div className="bg-white border border-[rgba(0,0,0,0.12)] flex items-center justify-between px-6 lg:px-[60px] py-[16px] rounded-[32px] lg:rounded-[100px] max-w-[1560px] w-full pointer-events-auto relative mt-4">
+        <div className="bg-white border border-[rgba(0,0,0,0.12)] flex items-center justify-between gap-5 px-[20px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] py-[16px] rounded-[32px] lg:rounded-[100px] max-w-[1560px] w-full pointer-events-auto relative mt-4">
           <div className="h-[40px] lg:h-[60px] w-[110px] lg:w-[145px] relative">
             <Link href="/" onClick={() => setIsMenuOpen(false)}>
               <Image
@@ -105,7 +107,7 @@ export default function Home() {
           <div className="flex-grow flex items-end pb-12 lg:pb-20">
             <div className="flex flex-col items-center lg:items-start gap-[36px] w-full">
               <div className="flex flex-col items-center lg:items-start gap-[16px]">
-                <h1 className="font-crimson text-[40px] lg:text-[66px] leading-tight lg:leading-[66px] text-white text-center lg:text-left tracking-tight lg:tracking-[-1.98px] max-w-[653px]">
+                <h1 className="font-crimson leading-tight lg:leading-[66px] text-white text-center lg:text-left tracking-tight lg:tracking-[-1.98px] max-w-[653px]">
                   Managing, Letting, & Investing - the Right Way
                 </h1>
                 <p className="font-manrope font-normal text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] text-white text-center lg:text-left max-w-[500px]">
@@ -138,6 +140,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Selling Process Section */}
+      <SellingProcessSection />
 
       {/* Properties Section */}
       <FeaturedProperties />
@@ -219,7 +224,7 @@ export default function Home() {
             { title: 'Investments', image: '67b55c6ccaa7e563976cce39b0d51b258d560847', desc: 'Tailored UK property investment opportunities designed for performance and security.' }
           ].map((service, i) => (
             <div key={i} className="flex flex-col gap-[21px] items-center w-full lg:w-[445px]">
-              <div className="relative w-full h-[350px] lg:h-[480px] rounded-[12px] overflow-hidden">
+              <div className="relative w-full h-[350px] lg:h-[480px] rounded-[16px] overflow-hidden">
                 <Image
                   src={`http://localhost:3845/assets/${service.image}.png`}
                   alt={service.title}

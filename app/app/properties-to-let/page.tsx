@@ -11,7 +11,7 @@ export default async function PropertiesToLetPage() {
     <div className="bg-[#FAFAFA] min-h-screen">
       {/* Hero section */}
       <section className="relative w-full overflow-hidden">
-        <div className="relative max-w-[1560px] mx-auto px-6 lg:px-[160px] pt-[39px] pb-[120px]">
+        <div className="relative max-w-[1600px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] pt-[39px] pb-[120px]">
           {/* Background image with gradient */}
           <div className="absolute inset-0 -z-10">
             <div className="relative w-full h-[420px] md:h-[520px] lg:h-[620px] rounded-b-[36px] overflow-hidden">
@@ -28,7 +28,7 @@ export default async function PropertiesToLetPage() {
 
           {/* Hero copy */}
           <div className="relative max-w-[660px] mt-16 space-y-4 text-white">
-            <h1 className="font-crimson text-[40px] md:text-[56px] lg:text-[66px] leading-[1.05] tracking-[-0.06em]">
+            <h1 className="font-crimson leading-[1.05] tracking-[-0.06em]">
               Find Your Next Home with Pevona
             </h1>
             <p className="font-manrope text-[18px] leading-[28px] text-white/90">
@@ -40,7 +40,7 @@ export default async function PropertiesToLetPage() {
       </section>
 
       {/* Property Search + grid */}
-      <section className="max-w-[1440px] mx-auto px-6 lg:px-[94px] mt-[120px] flex flex-col items-center gap-9">
+      <section className="max-w-[1500px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] mt-[120px] flex flex-col items-center gap-9">
         <div className="max-w-[861px] text-center space-y-4">
           <h2 className="font-crimson text-[40px] md:text-[56px] leading-[56px] tracking-[-1.68px] text-[#002f57]">
             Property Search

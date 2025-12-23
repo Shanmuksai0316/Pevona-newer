@@ -7,7 +7,7 @@ export default function ContactPage() {
       <div className="relative w-full h-[500px] flex items-center justify-center">
         <div className="absolute inset-0 bg-gradient-to-b from-[#002f57] to-[#001a2e]"></div>
         <div className="relative z-10 flex flex-col items-center gap-[16px] text-center px-4">
-          <h1 className="font-crimson text-[56px] leading-[56px] text-white tracking-[-1.68px]">
+          <h1 className="font-crimson leading-[56px] text-white tracking-[-1.68px]">
             Get In Touch
           </h1>
           <p className="font-manrope font-normal text-[18px] leading-[28px] text-white opacity-90 max-w-[600px]">
@@ -17,7 +17,7 @@ export default function ContactPage() {
       </div>
 
       {/* Contact Content */}
-      <div className="flex flex-col lg:flex-row gap-[60px] items-start justify-center px-[135px] py-[80px] w-full max-w-[1560px]">
+      <div className="flex flex-col lg:flex-row gap-[60px] items-start justify-center px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] py-[80px] w-full max-w-[1600px] mx-auto">
         {/* Contact Form */}
         <div className="flex-1 w-full max-w-[600px]">
           <div className="bg-white border border-[rgba(0,0,0,0.12)] rounded-[16px] p-[40px]">
