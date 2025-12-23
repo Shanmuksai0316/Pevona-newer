@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function NewsSection() {
   return (
-    <div className="flex flex-col gap-[26px] items-start px-[135px] w-full mt-[150px]">
+    <div className="flex flex-col gap-[26px] items-start px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] w-full max-w-[1600px] mx-auto mt-[150px]">
       <div className="flex gap-[110px] items-center justify-center w-full">
         <div className="flex-1 flex flex-col gap-[5px] items-start">
           <h2 className="font-crimson text-[56px] leading-[56px] text-[#002f57] tracking-[-1.68px] w-full">
@@ -35,7 +35,7 @@ export default function NewsSection() {
           </div>
           <div className="flex flex-col gap-[26px] items-start w-full">
             <div className="flex flex-col items-start">
-              <h4 className="font-crimson font-semibold text-[26px] leading-[30px] text-[#002f57] max-w-[322px]">Invest Smart, Live Better</h4>
+              <h4 className="font-crimson font-semibold leading-[30px] text-[#002f57] max-w-[322px]">Invest Smart, Live Better</h4>
               <p className="font-manrope font-normal text-[18px] leading-[28px] text-[#333333]">
                 Explore high-return real estate opportunities designed for modern lifestyles
               </p>
@@ -62,7 +62,7 @@ export default function NewsSection() {
                   unoptimized
                 />
               </div>
-              <h4 className="flex-1 font-crimson font-semibold text-[20px] leading-[30px] text-[#333333]">{item.title}</h4>
+              <h5 className="flex-1 font-crimson font-semibold leading-[30px] text-[#333333]">{item.title}</h5>
             </div>
           ))}
         </div>

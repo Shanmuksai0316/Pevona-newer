@@ -25,9 +25,9 @@ export default function SolutionsSection() {
   return (
     <div
       className="
-        flex flex-col gap-[26px] items-center w-full overflow-hidden
+        container mx-auto flex flex-col gap-[26px] items-center w-full overflow-hidden
         mt-[100px] sm:mt-[120px] lg:mt-[150px]
-        px-4 sm:px-6 lg:px-0
+        px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] max-w-[1600px] mx-auto
       "
     >
       {/* HEADING */}
@@ -50,6 +50,7 @@ export default function SolutionsSection() {
           md:flex-row
           gap-[26px]
           items-center justify-center w-full
+          max-w-full
         "
       >
         {services.map((service, i) => (
@@ -59,22 +60,23 @@ export default function SolutionsSection() {
               flex flex-col gap-[21px] items-center
               w-full
               sm:w-[445px]
+              max-w-full
             "
           >
             {/* IMAGE */}
             <div
               className="
-                relative w-full overflow-hidden rounded-[12px]
+                relative w-full overflow-hidden rounded-[16px]
                 h-[360px]
                 sm:h-[420px]
-                lg:h-[480px]
+                lg:h-[455px]
               "
             >
               <Image
                 src={service.image}
                 alt={service.title}
                 fill
-                className="object-cover"
+                className="object-cover rounded-[26px]"
                 unoptimized
               />
               <div className="absolute bottom-[20px] left-[38px]">
@@ -98,8 +100,9 @@ export default function SolutionsSection() {
                 text-[16px] leading-[24px]
                 sm:text-[18px] sm:leading-[28px]
                 text-center sm:text-left
+                w-full max-w-full
               "
-              style={{ width: `${service.width}px` }}
+              style={{ maxWidth: `${service.width}px` }}
             >
               {service.description}
             </p>
