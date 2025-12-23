@@ -27,29 +27,49 @@ body {
 @layer base {
   h1 {
     font-size: clamp(2.8125rem, 2.445rem + 1.68vw, 4.125rem) !important;
+    line-height: 1.2 !important;
   }
   h2 {
     font-size: clamp(2.0625rem, 1.66rem + 1.84vw, 3.5rem) !important;
+    line-height: 1.2 !important;
   }
   h3 {
     font-size: clamp(1.25rem, 0.9rem + 1.6vw, 2.5rem) !important;
+    line-height: 1.2 !important;
   }
   h4 {
     font-size: clamp(1.5rem, 1.465rem + 0.16vw, 1.625rem) !important;
+    line-height: 1.2 !important;
   }
   h5 {
     font-size: clamp(1.25rem, 1.25rem + 0vw, 1.25rem) !important;
+    line-height: 1.2 !important;
   }
   h6 {
     font-size: clamp(0.9375rem, 0.815rem + 0.56vw, 1.375rem) !important;
+    line-height: 1.2 !important;
   }
   p {
     font-size: clamp(1rem, 0.9464rem + 0.1786vw, 1.125rem) !important;
+    line-height: 1.5 !important;
   }
 }
 
 .font-crimson {
   font-family: 'Crimson Text', serif;
+}
+
+/* Apply heading line-height to all heading elements */
+/* Note: h1-h6 already have line-height 1.2 in @layer base above */
+
+/* Apply heading line-height to heading-like elements (divs/spans with font-crimson that aren't paragraphs) */
+.font-crimson:not(p):not(span.font-manrope) {
+  line-height: 1.2 !important;
+}
+
+/* Apply paragraph line-height to all paragraph elements */
+p {
+  line-height: 1.5 !important;
 }
 
 /* Custom utilities */

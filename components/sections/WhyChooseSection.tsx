@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WhyChooseSection() {
   return (
-    <div className="w-full mt-[120px] px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] max-w-[1600px] mx-auto">
+    <div className="w-full mt-[60px] sm:mt-[120px] mb-[60px] sm:mb-0 px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] max-w-[1600px] mx-auto">
       <h2
         className="
           font-crimson text-[#002f57] tracking-[-1.68px]
@@ -117,7 +117,7 @@ function Card({
         mb-[16px]
         break-inside-avoid
         flex flex-col justify-between
-        ${tall ? "h-[344px]" : "h-[234px]"}
+        h-auto ${tall ? "md:h-[344px]" : "md:h-[234px]"}
       `}
     >
       {children}
@@ -143,7 +143,7 @@ function ImageCard({
         rounded-[16px]
         mb-[16px]
         break-inside-avoid
-        h-[344px]
+        h-auto md:h-[344px]
         flex flex-col
       "
     >

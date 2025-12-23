@@ -26,7 +26,7 @@ export default function SolutionsSection() {
     <div
       className="
         container mx-auto flex flex-col gap-[26px] items-center w-full overflow-hidden
-        mt-[100px] sm:mt-[120px] lg:mt-[150px]
+        mt-[60px] sm:mt-[120px] lg:mt-[150px] mb-[60px] sm:mb-0
         px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] max-w-[1600px] mx-auto
       "
     >

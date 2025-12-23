@@ -81,7 +81,7 @@ export default function SellPage() {
       <SellingOverwhelmingSection />
 
       {/* Our Selling Process */}
-      <section className="bg-white mt-[60px] sm:mt-[80px] md:mt-[100px] lg:mt-[140px] py-[40px] sm:py-[60px] md:py-[80px] lg:py-[120px]">
+      <section className="bg-white mt-[60px] sm:mt-[80px] md:mt-[100px] lg:mt-[140px] mb-[60px] sm:mb-0 py-[40px] sm:py-[60px] md:py-[80px] lg:py-[120px]">
         <div className="max-w-[1600px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] flex flex-col lg:flex-row gap-[40px] sm:gap-[60px] lg:gap-[80px] items-start">
           {/* Left Section */}
           <div className="flex-1 w-full max-w-[600px] space-y-6 sm:space-y-8">

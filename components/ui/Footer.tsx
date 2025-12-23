@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#002f57] flex flex-col gap-4 items-center justify-end px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] pt-[73px] pb-12 lg:pb-[16px] w-full mt-[100px] lg:mt-[150px]">
+    <footer className="bg-[#002f57] flex flex-col gap-4 items-center justify-end px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] pt-[73px] pb-12 lg:pb-[16px] w-full mt-[60px] sm:mt-[100px] lg:mt-[150px]">
       <div className="flex flex-col lg:flex-row items-start justify-between w-full max-w-[1600px] gap-4">
         {/* Logo and Description */}
         <div className="flex flex-col gap-[26px] items-start w-full lg:w-[480px]">

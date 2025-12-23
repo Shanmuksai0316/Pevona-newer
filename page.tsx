@@ -274,7 +274,7 @@ export default function Home() {
       </div>
 
       {/* Footer Section */}
-      <footer className="bg-[#002f57] flex flex-col gap-[36px] items-center justify-end px-6 lg:px-0 pt-[73px] pb-12 lg:pb-[16px] w-full mt-[100px] lg:mt-[150px]">
+      <footer className="bg-[#002f57] flex flex-col gap-[36px] items-center justify-end px-6 lg:px-0 pt-[73px] pb-12 lg:pb-[16px] w-full mt-[60px] sm:mt-[100px] lg:mt-[150px]">
         <div className="flex flex-col lg:flex-row items-start justify-between lg:px-[135px] w-full max-w-[1560px] gap-12 lg:gap-0">
           <div className="flex flex-col gap-[26px] items-start w-full lg:w-[480px]">
             <div className="h-[50px] w-[193px] relative">

@@ -39,7 +39,7 @@ export default function InvestmentOpportunitiesPage() {
       </section>
 
       {/* Why invest with us */}
-      <section className="max-w-[1300px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] mt-[150px] flex flex-col gap-[36px] items-center">
+      <section className="max-w-[1300px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] mt-[60px] sm:mt-[150px] mb-[60px] sm:mb-0 flex flex-col gap-[36px] items-center">
         <h2 className="font-crimson text-[56px] leading-[56px] tracking-[-1.68px] text-[#002f57] text-center">
           Why invest with us
         </h2>
@@ -109,7 +109,7 @@ export default function InvestmentOpportunitiesPage() {
       </section>
 
       {/* Current Investment Opportunities */}
-      <section className="max-w-[1300px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] mt-[150px] flex flex-col gap-[26px] items-center">
+      <section className="max-w-[1300px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] mt-[60px] sm:mt-[150px] mb-[60px] sm:mb-0 flex flex-col gap-[26px] items-center">
         <div className="max-w-[1035px] text-center space-y-4">
           <h2 className="font-crimson text-[56px] leading-[56px] tracking-[-1.68px] text-[#002f57]">
             Current Investment Opportunities
@@ -199,7 +199,7 @@ export default function InvestmentOpportunitiesPage() {
       </section>
 
       {/* Investment process */}
-      <section className="bg-white w-full mt-[150px] py-[60px]">
+      <section className="bg-white w-full mt-[60px] sm:mt-[150px] mb-[60px] sm:mb-0 py-[60px]">
         <div className="max-w-[1300px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px]">
           <h2 className="font-crimson text-[56px] leading-[56px] tracking-[-1.68px] text-[#002f57] text-center mb-[60px]">
             Investment process
@@ -302,7 +302,7 @@ export default function InvestmentOpportunitiesPage() {
       </section>
 
       {/* Due diligence & investor protections */}
-      <section className="max-w-[1300px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] mt-[150px] flex flex-col lg:flex-row gap-[144px] items-center mb-[120px]">
+      <section className="max-w-[1300px] mx-auto px-4 sm:px-[60px] md:px-[60px] lg:px-[60px] 1300:px-[60px] 1400:px-[80px] 1500:px-[100px] 1600:px-[130px] mt-[60px] sm:mt-[150px] mb-[60px] sm:mb-[120px] flex flex-col lg:flex-row gap-[144px] items-center">
         <div className="flex-1 max-w-[543px] space-y-[10px]">
           <h2 className="font-crimson text-[56px] leading-[56px] tracking-[-1.68px] text-[#002f57]">
             Due diligence &amp; investor protections
